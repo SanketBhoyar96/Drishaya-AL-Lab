@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,200;0,300;0,400;0,700;1,200;1,300;1,400&display=swap');
+
+* {
+    background-color: rgb(22, 102, 112);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.heading {
+    color: white;
+    text-decoration: underline;
+    margin-top: 3%;
+}
+
+table,td,th {
+    border: 2px solid white;
+}
+
+th {
+    font-family: 'Urbanist', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    color: azure;
+    
+}
+
+td, th {
+    padding: 10px;
+    width: 12vw;
+    height: 12vh;
+    transition: all 200ms ease-in-out;
+}
+
+td:hover, th:hover b:hover{
+    box-shadow: 0px 3px 8px white;
+    box-shadow: 0px 3px 30px black;
+    background-color: white;
+    color:  rgb(22, 102, 112);
+}
+
+#sum {
+    color: azure;
+}
+
+.add, .dlt {
+    width: 125px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    padding: 15px;
+    color: black;
+    background-color: white;
+    transition: all 200ms ease-in-out;
+}
+
+.add {
+    margin-right: 20px;
+}
+
+.add:hover,.dlt:hover  {
+    box-shadow: 0px 3px 8px white;
+    box-shadow: 0px 3px 30px black;
+    background-color: rgb(22, 102, 112);
+    color: white;
+}
+
